@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/TableLayout01"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"/>
+
+<!--<TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="40dp"
+        android:height="50dp"
+        android:textSize="35sp"
+        android:textColor="#8B0000"
+        android:background="#FFFFFF"
+        />
+
+
+<TableRow
+        android:id="@+id/TableRow01"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center_horizontal">
+
+
+    <Button
+            android:id="@+id/Button01"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/value_1"
+            android:onClick="onclick"
+
+            />
+    <Button
+            android:id="@+id/Button02"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/value_2"
+            android:onClick="onclick"
+
+            />
+
+    <Button
+            android:id="@+id/Button03"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/value_3"
+            android:onClick="onclick"
+
+            />
+    <Button
+            android:id="@+id/ButtonPlus"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="10dp"
+            android:text="@string/plus"
+            android:onClick="onclick"
+
+            />
+    <Button
+            android:id="@+id/ButtonMinus"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/minus"
+            android:onClick="onclick"
+
+            />
+
+</TableRow>
+
+<TableRow
+        android:id="@+id/TableRow02"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center">
+
+
+    <Button
+            android:id="@+id/Button04"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/value_4"
+            android:onClick="onclick"
+
+            />
+    <Button
+            android:id="@+id/Button05"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/value_5"
+            android:onClick="onclick"
+
+            />
+
+    <Button
+            android:id="@+id/Button06"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/value_6"
+            android:onClick="onclick"
+
+            />
+
+    <Button
+            android:id="@+id/ButtonMult"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="10dp"
+            android:text="@string/mult"
+            android:onClick="onclick"
+
+            />
+
+    <Button
+            android:id="@+id/ButtonDiv"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/div"
+            android:onClick="onclick"
+
+            />
+
+</TableRow>
+
+<TableRow
+        android:id="@+id/TableRow03"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center">
+
+
+    <Button
+            android:id="@+id/Button07"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/value_7"
+            android:onClick="onclick"
+
+            />
+    <Button
+            android:id="@+id/Button08"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/value_8"
+            android:onClick="onclick"
+
+            />
+
+    <Button
+            android:id="@+id/Button09"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/value_9"
+            android:onClick="onclick"
+
+            />
+
+    <Button
+            android:id="@+id/ButtonRez"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="10dp"
+            android:text="@string/rez"
+            android:onClick="onclick"
+
+            />
+
+    <Button
+            android:id="@+id/ButtonClear"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:textColor="#FF0000"
+            android:textSize="25sp"
+            android:text="@string/C"
+            android:onClick="onclick"
+
+            />
+
+</TableRow>
+
+<TableRow
+        android:id="@+id/TableRow04"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        >
+
+
+    <Button
+            android:id="@+id/ButtonComma"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/comma"
+            android:onClick="onclick"
+
+            />
+
+    <Button
+            android:id="@+id/Button0"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/value_0"
+            android:onClick="onclick"
+            />
+
+    <Button
+            android:id="@+id/sign"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/sign"
+            />
+
+    <Button
+            android:id="@+id/left_bkt"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="10dp"
+            android:text="@string/left_bkt"
+            android:onClick="onclick"
+
+            />
+    <Button
+            android:id="@+id/right_bkt"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/right_bkt"
+            android:onClick="onclick"
+
+            />
+
+</TableRow>
+
+
+
+<TableRow
+        android:id="@+id/TableRow05"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center">
+
+    <Button
+            android:id="@+id/selectNotation"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/selectNotation"
+            android:onClick="onclick"
+
+            />
+
+
+</TableRow>
+
+<ProgressBar android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:id="@+id/progress"
+             style="@android:style/Widget.ProgressBar.Horizontal"
+             android:layout_margin="10dp"/>
+
+
+<TableRow    android:id="@+id/TableRow06"
+             android:layout_width="fill_parent"
+             android:layout_height="fill_parent"
+             android:gravity="right"
+             android:layout_marginRight="10dp">
+
+
+    <Button android:id="@+id/Exit"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FF0000"
+            android:layout_gravity="center"
+            android:text="@string/exit"
+            android:textSize="20sp"
+
+            android:onClick="onclick"></Button>
+
+</TableRow>
+
+</GridLayout>-->

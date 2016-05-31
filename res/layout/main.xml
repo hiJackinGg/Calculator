@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:columnCount="5"
+            android:orientation="horizontal" >
+
+        <TextView
+                android:id="@+id/TextView01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnSpan="5"
+                android:layout_gravity="fill_horizontal"
+                android:height="50dp"
+                android:textSize="35sp"
+                android:textColor="#8B0000"
+                android:background="#FFFFFF"
+                />
+
+    <ProgressBar android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_columnSpan="5"
+                 android:layout_gravity="fill_horizontal"
+                 android:id="@+id/progress"
+                 style="@android:style/Widget.ProgressBar.Horizontal"
+                 android:layout_margin="10dp"/>
+
+
+        <Button
+                android:id="@+id/Button01"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="@string/value_1"
+                android:onClick="onclick"
+
+                />
+        <Button
+                android:id="@+id/Button02"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="@string/value_2"
+                android:onClick="onclick"
+
+                />
+
+        <Button
+                android:id="@+id/Button03"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="@string/value_3"
+                android:onClick="onclick"
+
+                />
+        <Button
+                android:id="@+id/ButtonPlus"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+
+                android:text="@string/plus"
+                android:onClick="onclick"
+
+                />
+        <Button
+                android:id="@+id/ButtonMinus"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="@string/minus"
+                android:onClick="onclick"
+
+                />
+
+        <Button
+                android:id="@+id/Button04"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="@string/value_4"
+                android:onClick="onclick"
+
+                />
+        <Button
+                android:id="@+id/Button05"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="@string/value_5"
+                android:onClick="onclick"
+
+                />
+
+        <Button
+                android:id="@+id/Button06"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="@string/value_6"
+                android:onClick="onclick"
+
+                />
+
+        <Button
+                android:id="@+id/ButtonMult"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="@string/mult"
+                android:onClick="onclick"
+
+                />
+
+        <Button
+                android:id="@+id/ButtonDiv"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="@string/div"
+                android:onClick="onclick"
+
+                />
+
+        <Button
+                android:id="@+id/Button07"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="@string/value_7"
+                android:onClick="onclick"
+
+                />
+        <Button
+                android:id="@+id/Button08"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="@string/value_8"
+                android:onClick="onclick"
+
+                />
+
+        <Button
+                android:id="@+id/Button09"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="@string/value_9"
+                android:onClick="onclick"
+
+                />
+
+        <Button
+                android:id="@+id/ButtonRez"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="@string/rez"
+                android:onClick="onclick"
+
+                />
+
+        <Button
+                android:id="@+id/ButtonClear"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:textColor="#FF0000"
+                android:textSize="25sp"
+                android:text="@string/C"
+                android:onClick="onclick"
+
+                />
+
+        <Button
+                android:id="@+id/ButtonComma"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="@string/comma"
+                android:onClick="onclick"
+
+                />
+
+        <Button
+                android:id="@+id/Button0"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="@string/value_0"
+                android:onClick="onclick"
+                />
+
+        <Button
+                android:id="@+id/sign"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="@string/sign"
+                />
+
+        <Button
+                android:id="@+id/left_bkt"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="@string/left_bkt"
+                android:onClick="onclick"
+
+                />
+        <Button
+                android:id="@+id/right_bkt"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="@string/right_bkt"
+                android:onClick="onclick"
+
+                />
+
+<TableLayout android:layout_width="fill_parent"
+             android:layout_height="fill_parent"
+             android:layout_columnSpan="3"
+             android:layout_rowSpan="2"
+             android:layout_marginTop="10dp"
+             android:layout_marginRight="10dp"
+        >
+    <TableRow
+            android:id="@+id/TableRow01"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center_horizontal">
+    <Button
+            android:id="@+id/a"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/a"
+            android:onClick="onclick"
+
+            />
+    <Button
+            android:id="@+id/b"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/b"
+            android:onClick="onclick"
+            />
+        <Button
+                android:id="@+id/c"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+
+                android:text="@string/c"
+                android:onClick="onclick"
+                />
+    </TableRow>
+    <TableRow
+            android:id="@+id/TableRow01"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center_horizontal">
+    <Button
+            android:id="@+id/d"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/d"
+            android:onClick="onclick"
+
+            />
+    <Button
+            android:id="@+id/e"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/e"
+            android:onClick="onclick"
+
+            />
+    <Button
+            android:id="@+id/f"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/f"
+            android:onClick="onclick"
+
+            />
+    </TableRow>
+</TableLayout>
+
+    <Button
+            android:id="@+id/back"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+
+            android:text="@string/back"
+            android:onClick="onclick"
+            />
+    <Button android:id="@+id/Exit"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+
+            android:textColor="#FF0000"
+
+            android:text="@string/exit"
+            android:textSize="20sp"
+
+            android:onClick="onclick"></Button>
+
+    <TextView
+              android:id="@+id/menu"
+
+              android:layout_width="wrap_content"
+              android:layout_height="fill_parent"
+              android:text="Menu"
+            />
+
+    <Button
+            android:id="@+id/selectNotation"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_columnSpan="5"
+
+            android:layout_gravity="left"
+            android:text="@string/selectNotation"
+            android:onClick="onclick"
+
+            />
+
+
+</GridLayout>
